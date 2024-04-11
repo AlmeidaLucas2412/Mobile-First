@@ -1,0 +1,711 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", serif;
+}
+
+img {
+  max-width: 100dvw;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.first {
+  background: linear-gradient(rgba(0, 0, 0, 0.305), rgba(0, 0, 0, 0.305)), url("./images/background-1.webp");
+  height: 100dvh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.top {
+  padding-top: 3rem;
+  padding-left: 1.5rem;
+}
+
+.logo {
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: bold
+}
+
+.first-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 138px 20px;
+}
+
+.title {
+  font-size: 2.8rem;
+  padding-top: 1rem;
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  padding-bottom: 78px;
+}
+
+.colorlib {
+  color: lightgrey;
+  transition: 0.3s ease;
+}
+
+.colorlib:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 1px;
+  color: white;
+  cursor: pointer;
+}
+
+.first-content a {
+  text-decoration: none;
+  width: 100%;
+  color: inherit;
+  font-size: 1.2rem;
+  border: 2px solid white;
+  padding: 16px 8px;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+}
+
+.first-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+}
+
+.introduction-image img {
+  padding: 0 1rem 2rem 1rem;
+  width: 100%;
+}
+
+.welcome-content {
+  padding: 0 1rem;
+}
+
+.welcome-text {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.description {
+  font-size: 1rem;
+  padding-top: 2.5rem;
+}
+
+.description-sub {
+  font-size: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 6rem
+}
+
+.video-title {
+  color: #65c0ba;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.third {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  align-items: center;
+}
+
+.benefit-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
+.benefit-image {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  width: 4.5rem;
+}
+
+
+.benefits {
+  font-size: 30px;
+  text-align: center;
+}
+
+.benefits-description {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.benefit {
+  font-size: 1.6rem;
+}
+
+.benefit-description {
+  padding-top: 0.8rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.management {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  align-items: center;
+}
+
+.management-title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.management-description {
+  text-align: center;
+}
+
+.slider-image {
+  padding: 2rem;
+}
+
+.slider-image img {
+  width: 100%;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+
+.fourth {
+  display: flex;
+  flex-direction: column;
+  background-color: #65c0ba;
+  padding: 5rem 1rem;
+  align-items: center;
+}
+
+.post-area {
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding: 1.5rem 0;
+}
+
+.post-description {
+  color: white;
+  text-align: center;
+}
+
+.cards {
+  padding-top: 5rem;
+}
+
+.card-container {
+  background-color: white;
+  background-clip: content-box;
+  padding-top: 1.5rem;
+}
+
+.date {
+  color: lightgrey;
+  font-size: 1rem;
+  padding: 2rem 1rem 0.5rem 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding: 0rem 1rem 1rem 1rem;
+  transition: 0.3s;
+}
+
+.card-title:hover {
+  color: #65c0ba;
+  cursor: pointer
+}
+
+.card-description {
+  font-size: 1rem;
+  padding: 0rem 1rem 4rem 1rem;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.feedback {
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 4rem;
+}
+
+.customers-content {
+  padding-top: 2rem;
+}
+
+.customers-content img {
+  min-width: 150px;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.customer-rating {
+  font-size: 1rem;
+  font-style: italic;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.customer-name {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  align-items: center;
+}
+
+.review-title {
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 0.5rem;
+}
+
+.final-considerations {
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 0.5rem;
+}
+
+.review-card img {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.review-card_title {
+  font-weight: normal;
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+.review-card_title:hover {
+  color: #65c0ba;
+  cursor: pointer;
+}
+
+.all {
+  display: inline-flex;
+  width: 95%;
+}
+
+.star {
+  color: #65c0ba;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.review-quantity {
+  color: lightgray;
+  text-align: right;
+  margin-left: auto;
+}
+
+.all-about {
+  padding-top: 1rem;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  padding: 2.5rem 0.5rem 3rem 0.5rem;
+  list-style: none;
+}
+
+
+.about li {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.about-title {
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.about a {
+  text-decoration: none;
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-info {
+  font-weight: normal;
+  padding: 1rem;
+}
+
+.contact {
+  padding-bottom: 1.5rem;
+}
+
+.contact-way {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.contact-description {
+  padding: 0 1rem;
+  color: gray;
+  font-size: 1rem;
+}
+
+.sub {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.form-box {
+  padding: 2rem 1rem;
+}
+
+.form {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  width: 80%;
+  padding: 0.5rem 0;
+}
+
+button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.rights {
+  padding: 5rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+.copy {
+  color: gray;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
+
+.copy a {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  transition: 0.3s;
+}
+
+.copy a:hover {
+  color: white;
+}
+
+.social-media {
+  padding: 0 1rem 4rem 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media img {
+  padding: 0.5rem;
+  min-width: 35px;
+  width: 8%;
+  filter: invert(70%);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.social-media img:hover {
+  filter: invert(100%);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .first-content a {
+    width: 30%;
+  }
+
+  .benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .benefit-content {
+    width: 50%;
+  }
+
+  .management {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .management-content {
+    width: 60%;
+    text-align: center;
+  }
+
+  .final-considerations {
+    width: 60%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-container {
+    width: 50%;
+    padding: 1rem;
+    transition: 0.3s;
+  }
+
+  .customers-container {
+    display: flex;
+  }
+
+  .customers-content {
+    padding: 1rem;
+  }
+
+  .customers-content img {
+    width: 35%;
+  }
+
+  .review-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .review-card {
+    width: 50%;
+    padding: 0.5rem;
+  }
+
+  .review-container img {
+    width: 100%;
+  }
+
+  .star {
+    padding: 0 10rem 0 1rem;
+  }
+
+  .about-container {
+    display: flex;
+  }
+
+  .contact {
+    padding-top: 2rem;
+  }
+
+  .social-media img {
+    width: 5%;
+  }
+}
+
+
+@media (min-width: 1025px) {
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .first-content a {
+    width: 20%;
+  }
+
+  .first-content a:hover {
+    transform: scale(1.1);
+  }
+
+  .second {
+    flex-direction: row;
+    padding: 10rem 5rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .introduction-image {
+    width: 50%;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .introduction-image img {
+    width: 90%;
+  }
+
+  .welcome-content {
+    width: 50%;
+  }
+
+  .third {
+    padding-top: 8rem;
+  }
+
+  .benefits-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 4rem;
+  }
+
+  .benefit-content {
+    width: 30%;
+  }
+
+  .benefits-description {
+    width: 50%;
+  }
+
+  .management {
+    padding-bottom: 0;
+  }
+
+  .management-content {
+    width: 55%;
+  }
+
+  .management-title {
+    font-size: 5rem;
+  }
+
+  .management-description {
+    font-size: 18px;
+  }
+
+  .slider-image img {
+    padding: 1rem 6rem;
+  }
+
+  .post-area {
+    font-size: 5rem;
+  }
+
+  .post-description {
+    font-size: 1rem;
+    width: 50%;
+  }
+
+  .cards {
+    display: flex;
+    padding: 2rem 8rem;
+  }
+
+  .card-container {
+    padding: 1rem;
+  }
+
+  .card-container:hover {
+    transform: translate(0, -8px);
+    box-shadow: 3px 3px 3px black;
+  }
+
+  .fifth {
+    padding: 8rem;
+  }
+
+  .customers-container {
+    display: flex;
+  }
+
+  .feedback {
+    font-size: 5rem;
+  }
+
+  .customers-content {
+    padding: 1rem;
+  }
+
+  .customers-content img {
+    min-width: unset;
+    width: 20%;
+  }
+
+  .customer-rating {
+    font-size: 1rem;
+  }
+
+  .review {
+    padding: 8rem 1rem;
+  }
+
+  .final-considerations {
+    font-size: 1rem;
+    width: 50%;
+    padding-bottom: 3rem;
+  }
+
+  .review-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .review-card {
+    width: 20%;
+    padding: 0.5rem;
+  }
+
+  .review-card img {
+    width: 100%;
+  }
+
+  .about-container {
+    display: flex;
+    padding: 3rem 3rem 0rem 6rem;
+    justify-content: space-between;
+  }
+
+  .contact {
+    padding-top: 2rem;
+  }
+
+  .rights {
+    padding: 8rem 1rem 1rem 1rem;
+  }
+
+  .social-media {
+    padding: 0 1rem 10rem 1rem;
+  }
+
+  .social-media img {
+    width: 2%;
+  }
+}
